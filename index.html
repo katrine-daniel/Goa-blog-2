@@ -187,102 +187,133 @@
         </div>
     </div>
 
-   <!-- Add this CSS to your global stylesheet or in a <style> tag -->
-<style>
-/* Hide scrollbar for Chrome, Safari and Opera */
-.scrollbar-hide::-webkit-scrollbar {
-    display: none;
-}
+    <!-- Add this CSS to your global stylesheet or in a <style> tag -->
+    <style>
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.scrollbar-hide {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-}
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            /* IE and Edge */
+            scrollbar-width: none;
+            /* Firefox */
+        }
 
-/* Contain hover effects within boundaries */
-.destination-container {
-    isolation: isolate;
-}
-</style>
+        /* Contain hover effects within boundaries */
+        .destination-container {
+            isolation: isolate;
+        }
+    </style>
 
-<!-- Explore Destinations Section -->
-<section class="bg-gradient-to-b from-cream to-cream py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-10 relative">
-    <div class="destinations-container max-w-7xl mx-auto relative px-2 sm:px-4 lg:px-8 xl:px-12 2xl:px-16 pb-4 transition-all duration-300">
-        <h2 class="text-center text-2xl sm:text-3xl lg:text-4xl font-semibold text-brown-custom my-4 sm:my-5 mb-8 sm:mb-10 leading-tight font-poppins">
-            EXPLORE DESTINATIONS
-        </h2>
+    <!-- Explore Destinations Section -->
+    <section class="bg-gradient-to-b from-cream to-cream py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-10 relative">
+        <div
+            class="destinations-container max-w-7xl mx-auto relative px-2 sm:px-4 lg:px-8 xl:px-12 2xl:px-16 pb-4 transition-all duration-300">
+            <h2
+                class="text-center text-2xl sm:text-3xl lg:text-4xl font-semibold text-brown-custom my-4 sm:my-5 mb-8 sm:mb-10 leading-tight font-poppins">
+                EXPLORE DESTINATIONS
+            </h2>
 
-        <!-- Single responsive container -->
-        <div class="mb-8 lg:mb-10">
-            <!-- Mobile: Horizontal scroll, Desktop: Flex wrap -->
-            <div class="overflow-x-auto lg:overflow-x-visible pb-4 scrollbar-hide destination-container">
-                <div class="flex gap-3 sm:gap-4 lg:gap-5 min-w-max lg:min-w-0 px-2 sm:px-4 lg:px-0 lg:justify-center lg:flex-wrap overflow-visible">
-                    <!-- Destination Card 1 - Goa -->
-                    <div class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink -translate-y-2 sm:-translate-y-3 lg:-translate-y-4 scale-105 sm:scale-108 lg:scale-110 mb-4 group">
-                        <div class="w-56 h-64 sm:w-60 sm:h-68 lg:w-68 lg:h-69 rounded-xl sm:rounded-2xl relative overflow-hidden shadow-lg sm:shadow-xl bg-dest-1 bg-cover bg-center">
-                            <!-- Contained shadow overlay -->
-                            <div class="absolute -inset-2 bg-blue-500/10 rounded-xl sm:rounded-2xl blur-sm opacity-80"></div>
-                            <div class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-20 relative z-10"></div>
-                            <div class="absolute left-1/2 transform -translate-x-1/2 bottom-4 sm:bottom-5 lg:bottom-6 text-base sm:text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20 scale-105 sm:scale-108 lg:scale-110 font-poppins" style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7), 0 0 20px rgba(255, 255, 255, 0.3);">
-                                GOA
+            <!-- Single responsive container -->
+            <div class="mb-8 lg:mb-10">
+                <!-- Mobile: Horizontal scroll, Desktop: Flex wrap -->
+                <div class="overflow-x-auto lg:overflow-x-visible pb-4 scrollbar-hide destination-container">
+                    <div
+                        class="flex gap-3 sm:gap-4 lg:gap-5 min-w-max lg:min-w-0 px-2 sm:px-4 lg:px-0 lg:justify-center lg:flex-wrap overflow-visible">
+                        <!-- Destination Card 1 - Goa -->
+                        <div
+                            class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink -translate-y-2 sm:-translate-y-3 lg:-translate-y-4 scale-105 sm:scale-108 lg:scale-110 mb-4 group">
+                            <div
+                                class="w-56 h-64 sm:w-60 sm:h-68 lg:w-68 lg:h-69 rounded-xl sm:rounded-2xl relative overflow-hidden shadow-lg sm:shadow-xl bg-dest-1 bg-cover bg-center">
+                                <!-- Contained shadow overlay -->
+                                <div
+                                    class="absolute -inset-2 bg-blue-500/10 rounded-xl sm:rounded-2xl blur-sm opacity-80">
+                                </div>
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-20 relative z-10">
+                                </div>
+                                <div class="absolute left-1/2 transform -translate-x-1/2 bottom-4 sm:bottom-5 lg:bottom-6 text-base sm:text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20 scale-105 sm:scale-108 lg:scale-110 font-poppins"
+                                    style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7), 0 0 20px rgba(255, 255, 255, 0.3);">
+                                    GOA
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Destination Card 2 - Udaipur -->
-                    <div class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink hover:-translate-y-2 hover:scale-105 sm:hover:scale-108 lg:hover:scale-105 mb-4">
-                        <div class="w-56 h-64 sm:w-60 sm:h-68 lg:w-68 lg:h-69 rounded-xl sm:rounded-2xl relative overflow-hidden shadow-lg transition-all duration-300 bg-dest-2 bg-cover bg-center">
-                            <div class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-50 transition-opacity duration-300 hover:opacity-30"></div>
-                            <div class="absolute left-1/2 transform -translate-x-1/2 bottom-4 sm:bottom-5 lg:bottom-6 text-base sm:text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20 font-poppins" style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-                                UDAIPUR
+                        <!-- Destination Card 2 - Udaipur -->
+                        <div
+                            class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink hover:-translate-y-2 hover:scale-105 sm:hover:scale-108 lg:hover:scale-105 mb-4">
+                            <div
+                                class="w-56 h-64 sm:w-60 sm:h-68 lg:w-68 lg:h-69 rounded-xl sm:rounded-2xl relative overflow-hidden shadow-lg transition-all duration-300 bg-dest-2 bg-cover bg-center">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-50 transition-opacity duration-300 hover:opacity-30">
+                                </div>
+                                <div class="absolute left-1/2 transform -translate-x-1/2 bottom-4 sm:bottom-5 lg:bottom-6 text-base sm:text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20 font-poppins"
+                                    style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+                                    UDAIPUR
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Destination Card 3 - Jaipur -->
-                    <div class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink hover:-translate-y-2 hover:scale-105 sm:hover:scale-108 lg:hover:scale-105 mb-4">
-                        <div class="w-56 h-64 sm:w-60 sm:h-68 lg:w-68 lg:h-69 rounded-xl sm:rounded-2xl relative overflow-hidden shadow-lg transition-all duration-300 bg-dest-3 bg-cover bg-center">
-                            <div class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-50 transition-opacity duration-300 hover:opacity-30"></div>
-                            <div class="absolute left-1/2 transform -translate-x-1/2 bottom-4 sm:bottom-5 lg:bottom-6 text-base sm:text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20 font-poppins" style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-                                JAIPUR
+                        <!-- Destination Card 3 - Jaipur -->
+                        <div
+                            class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink hover:-translate-y-2 hover:scale-105 sm:hover:scale-108 lg:hover:scale-105 mb-4">
+                            <div
+                                class="w-56 h-64 sm:w-60 sm:h-68 lg:w-68 lg:h-69 rounded-xl sm:rounded-2xl relative overflow-hidden shadow-lg transition-all duration-300 bg-dest-3 bg-cover bg-center">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-50 transition-opacity duration-300 hover:opacity-30">
+                                </div>
+                                <div class="absolute left-1/2 transform -translate-x-1/2 bottom-4 sm:bottom-5 lg:bottom-6 text-base sm:text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20 font-poppins"
+                                    style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+                                    JAIPUR
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Destination Card 4 - Rishikesh -->
-                    <div class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink hover:-translate-y-2 hover:scale-105 sm:hover:scale-108 lg:hover:scale-105 mb-4">
-                        <div class="w-56 h-64 sm:w-60 sm:h-68 lg:w-68 lg:h-69 rounded-xl sm:rounded-2xl relative overflow-hidden shadow-lg transition-all duration-300 bg-dest-4 bg-cover bg-center">
-                            <div class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-50 transition-opacity duration-300 hover:opacity-30"></div>
-                            <div class="absolute left-1/2 transform -translate-x-1/2 bottom-4 sm:bottom-5 lg:bottom-6 text-base sm:text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20 font-poppins" style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
-                                RISHIKESH
+                        <!-- Destination Card 4 - Rishikesh -->
+                        <div
+                            class="destination-card relative cursor-pointer transition-all duration-[600ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] transform-gpu flex-shrink-0 lg:flex-shrink hover:-translate-y-2 hover:scale-105 sm:hover:scale-108 lg:hover:scale-105 mb-4">
+                            <div
+                                class="w-56 h-64 sm:w-60 sm:h-68 lg:w-68 lg:h-69 rounded-xl sm:rounded-2xl relative overflow-hidden shadow-lg transition-all duration-300 bg-dest-4 bg-cover bg-center">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-br from-black/30 to-black/10 opacity-50 transition-opacity duration-300 hover:opacity-30">
+                                </div>
+                                <div class="absolute left-1/2 transform -translate-x-1/2 bottom-4 sm:bottom-5 lg:bottom-6 text-base sm:text-lg lg:text-xl text-white font-bold uppercase tracking-wide z-20 font-poppins"
+                                    style="text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);">
+                                    RISHIKESH
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Navigation Indicators -->
-            <div class="flex justify-center items-center gap-1 sm:gap-2 md:gap-4 mt-6 sm:mt-8 px-2">
-                <div class="nav-dot active w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-11 lg:h-11 flex-shrink-0 rounded-full flex items-center justify-center text-xs sm:text-sm md:text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom text-white transform scale-105 sm:scale-108 lg:scale-110 shadow-md sm:shadow-lg border-0 font-poppins">
-                    01
-                </div>
-                <div class="w-4 sm:w-6 md:w-12 lg:w-15 h-0.5 bg-green-custom/60 flex-shrink-0"></div>
-                <div class="nav-dot w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-11 lg:h-11 flex-shrink-0 rounded-full flex items-center justify-center text-xs sm:text-sm md:text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom/20 text-green-custom border-2 border-green-custom hover:bg-green-custom/30 hover:scale-105 hover:shadow-lg font-poppins">
-                    02
-                </div>
-                <div class="w-4 sm:w-6 md:w-12 lg:w-15 h-0.5 bg-green-custom/60 flex-shrink-0"></div>
-                <div class="nav-dot w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-11 lg:h-11 flex-shrink-0 rounded-full flex items-center justify-center text-xs sm:text-sm md:text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom/20 text-green-custom border-2 border-green-custom hover:bg-green-custom/30 hover:scale-105 hover:shadow-lg font-poppins">
-                    03
-                </div>
-                <div class="w-4 sm:w-6 md:w-12 lg:w-15 h-0.5 bg-green-custom/60 flex-shrink-0"></div>
-                <div class="nav-dot w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-11 lg:h-11 flex-shrink-0 rounded-full flex items-center justify-center text-xs sm:text-sm md:text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom/20 text-green-custom border-2 border-green-custom hover:bg-green-custom/30 hover:scale-105 hover:shadow-lg font-poppins">
-                    04
+                <!-- Navigation Indicators -->
+                <div class="flex justify-center items-center gap-1 sm:gap-2 md:gap-4 mt-6 sm:mt-8 px-2">
+                    <div
+                        class="nav-dot active w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-11 lg:h-11 flex-shrink-0 rounded-full flex items-center justify-center text-xs sm:text-sm md:text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom text-white transform scale-105 sm:scale-108 lg:scale-110 shadow-md sm:shadow-lg border-0 font-poppins">
+                        01
+                    </div>
+                    <div class="w-4 sm:w-6 md:w-12 lg:w-15 h-0.5 bg-green-custom/60 flex-shrink-0"></div>
+                    <div
+                        class="nav-dot w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-11 lg:h-11 flex-shrink-0 rounded-full flex items-center justify-center text-xs sm:text-sm md:text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom/20 text-green-custom border-2 border-green-custom hover:bg-green-custom/30 hover:scale-105 hover:shadow-lg font-poppins">
+                        02
+                    </div>
+                    <div class="w-4 sm:w-6 md:w-12 lg:w-15 h-0.5 bg-green-custom/60 flex-shrink-0"></div>
+                    <div
+                        class="nav-dot w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-11 lg:h-11 flex-shrink-0 rounded-full flex items-center justify-center text-xs sm:text-sm md:text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom/20 text-green-custom border-2 border-green-custom hover:bg-green-custom/30 hover:scale-105 hover:shadow-lg font-poppins">
+                        03
+                    </div>
+                    <div class="w-4 sm:w-6 md:w-12 lg:w-15 h-0.5 bg-green-custom/60 flex-shrink-0"></div>
+                    <div
+                        class="nav-dot w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-11 lg:h-11 flex-shrink-0 rounded-full flex items-center justify-center text-xs sm:text-sm md:text-base font-bold cursor-pointer transition-all duration-300 bg-green-custom/20 text-green-custom border-2 border-green-custom hover:bg-green-custom/30 hover:scale-105 hover:shadow-lg font-poppins">
+                        04
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
     <!-- Main Content Section with Sidebar -->
@@ -292,124 +323,166 @@
             <section class="flex-1 bg-white p-5 md:p-8 rounded-lg mb-6 shadow-lg">
                 <h2 class="text-center text-[22px] md:text-[28px] font-semibold text-[#8B4513] mb-2 font-poppins">
                     Slow travel through the lesser-known side of Goa with some homegrown outfits
-                    <h4
-                        class="text-center text-xs text-black mt-2 mb-6 pt-3 border-t border-gray-200 font-poppins font-normal">
-                        👤 Shikha Tripathi 🕐 4 min
-                    </h4>
+                </h2>
+                <h4 class="text-center text-xs text-black mt-2 mb-3 font-poppins font-normal">
+                    👤 Shikha Tripathi 🕐 4 min
+                </h4>
+                <div class="border-t border-gray-200 mb-6"></div>
+
+                <!-- Fort Image -->
+                <div class="w-full h-[300px] md:h-[450px] rounded-lg bg-cover bg-center my-2 shadow-lg"
+                    style="background-image: url('img/fort.png');"></div>
+                <!-- Text Below Image -->
+                <p class="text-center mt-2 my-2 font-bold text-xs lg:text-sm  text-gray-700">
+                    Soul Travelling-villagers of Valpoi & their folk songs
+                </p>
+
+
+
+
+                <p class="mb-4">
+                    Since its inception, Goa has been the unofficial beach capital of India and the harbinger of
+                    good times. Be it ushering in the new year in style, that ultimate road trip straight out of
+                    Bollywood, or the dreamy destination wedding couples have always wanted, it’s been
+                    the numero uno destination for all. I’ve also partaken in seeing Goa through a coloured
+                    lens, but over the years, Goa has evolved in a more wholesome way, and so has my perception
+                    of it. </p>
+                <!-- Text content with floating image -->
+                <div class="text-[16px] leading-relaxed text-justify">
+                    <!-- Floating Image with Text Below -->
+                    <div class="w-full max-w-[300px] mb-4 float-right ml-6">
+                        <!-- Image Container -->
+                        <div class="h-[290px] md:h-[300px] rounded-lg bg-cover bg-center shadow-lg relative"
+                            style="background-image: url('img/image\ 134.png');">
+                        </div>
+
+                        <!-- Text Below Image -->
+                        <p class="text-center mt-4  mt-2 my-2  font-bold text-xs lg:text-sm  text-gray-700">
+                            Khoj-aao! - Taking a guided walk through Goa's backyard forests is a great way to
+                            explore the lesser-known side of Goa
+                        </p>
+
+                    </div>
+
+                    <p class="mb-4">
+                        Divided primarily into the north and south, there is much to explore in the state. While the
+                        north is associated with more of the café culture replete with beach shacks, backpackers and
+                        catchy events, the south is considered the antidote with its secluded beaches and choice
+                        accommodation. If you look hard enough though, there is a little bit of both in the other,
+                        and you are bound to find your quiet corners in North Goa and your lively hangouts in the
+                        south. </p>
+                    <p class="mb-4">
+                        Beaches top the reason why people flock to Goa, and while Baga and Calangute may have been
+                        the rage at one point, today they are no better than overcrowded malls. You will still find
+                        some great eateries tucked away in their folds, but if you want quietude, escape to the
+                        secluded havens in the south such as Agonda or Palolem, or the hidden gem Butterfly beach
+                        accessible only by boat. A completely different world is the natural beauty of Divar island,
+                        connected to old Goa by ferry. In the north, Anjuna is an old favourite, just like Arambol
+                        and Vagator. Farthest though, are the Ashwem and Mandrem beaches, by far my favourites.
+                    </p>
+                   
+                    <!-- Ad Banner -->
+                    <div class="flex justify-center">
+                        <div
+                            class="relative w-80 sm:w-96 md:w-[28rem] lg:w-[32rem] xl:w-[40rem] h-auto rounded-2xl overflow-hidden">
+                            <!-- Background Image -->
+                            <div class="w-full h-12 mb-6 sm:h-14 md:h-16 lg:h-18 bg-cover bg-center bg-no-repeat rounded-2xl"
+                                style="background-image: url('img/banner.png');">
+
+                                <!-- Content Container -->
+                                <div
+                                    class="relative h-full flex items-center justify-between px-4 sm:px-5 md:px-6 lg:px-8">
+
+                                    <!-- Left Side - Text Content -->
+                                    <div class="flex items-center space-x-2">
+                                        <!-- Text Content -->
+                                        <div class="text-white">
+                                            <h3
+                                                class="text-[10px] sm:text-xs md:text-sm lg:text-base font-medium leading-tight">
+                                                The city that never sleeps meets travelers<br>
+                                                <span
+                                                    class="text-[10px] sm:text-xs md:text-sm lg:text-base font-medium">who
+                                                    never settle</span>
+                                            </h3>
+                                            <p class="text-[8px] sm:text-[9px] md:text-xs text-gray-200 mt-0.5">
+                                                <i class="fas fa-map-marker-alt mr-1"></i>New York
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Right Side - CTA Button -->
+                                    <div class="flex flex-col items-end space-y-0.5">
+                                        <button
+                                            class="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-2 py-1 sm:px-3 sm:py-1 md:px-4 md:py-1.5 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md text-[9px] sm:text-xs md:text-sm">
+                                            Explore
+                                        </button>
+                                        <p class="text-[7px] sm:text-[8px] md:text-[9px] text-gray-300">*T&C Apply</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <p class="mb-4"> No matter what your reason for visiting Goa, the architecture of the place is
+                        one you must
+                        carve time out for. The place has a rich history of Portuguese influence, reflected in
+                        everything from its historic buildings, to its culture and food. Start with the definitive
+                        Basilica of Bom Jesus, a UNESCO World Heritage Site in the capital that houses the tomb and
+                        remains of St. Francis Xavier. Another popular church in Panaji is Our Lady of Immaculate
+                        Conception, Se Cathedral, and the Churches of Saint Francis of Assisi and Saint Cajetan
+                        close by. Goa is also home to plenty of forts, the most famous one being Fort Aguada. Other
+                        grand forts include Fort Tiracol and Fort Chapora, all in North Goa. My favourite way to
+                        explore Goa’s Portuguese architecture though has always been by walking around the old
+                        quarters of the atmospheric Fontainhas neighbourhood in Panaji.
+                    </p>
+
+                    <p class="mb-4">
+                        When it comes to the usual suspects in Goa, the fun quotient is a high one. From snorkelling
+                        to banana boat rides and other water sports in the day, to dining on cruises or visiting its
+                        floating casinos at night, the list is endless. There are plenty of nightclubs all over, and
+                        eateries and pubs at every corner. The old favourites include Brittos to Suzie’s, to Ritz in
+                        Panaji which serves one of the best Goan thalis, while new ones emerge every season
+                        including a slew of hip cafes in Assagao, and the latest rage, green favourites like Beam Me
+                        Up and Okapi Vegan Kitchen. Bebinca, the old Portuguese sweetmeat, and Feni, the unofficial
+                        local drink, are cultural staples available at most supermarkets. </p>
                     <!-- Fort Image -->
-                    <div class="w-full h-[300px] md:h-[450px] rounded-lg bg-cover bg-center my-2 shadow-lg"
-                        style="background-image: url('img/fort.png');"></div>
+                    <div class="w-full h-[100px] sm:h-[80px] md:h-[120px] lg:h-[150px] xl:h-[180px] rounded-lg bg-cover bg-center my-2 shadow-lg"
+                        style="background-image: url('img/goa3.png');"></div>
+
+
                     <!-- Text Below Image -->
-                    <p class="text-center mt-2 my-2 font-bold text-xs lg:text-sm  text-gray-700">
-                        Soul Travelling-villagers of Valpoi & their folk songs
+                    <p class="text-center  mt-2 my-2 text-xs lg:text-sm font-bold text-gray-700">
+                        Terra conscious- Kayaking - Mangrove Exploration at Nerul River, North Goa
+                    </p>
+
+                    <p class="mb-4">
+                        When you’re done exploring the traditional hotspots, kick back and explore the lesser-known
+                        side of Goa with the help of some homegrown outfits that have been promoting conscious
+                        travel in more sustainable ways that help divide the footfall in this very popular
+                        destination. The idea of slow travel has grown on me, and only strengthened here in Goa, and
+                        even more so since the pandemic. Explore the mangroves of Goa with Terra Conscious, or
+                        explore the nuances of village life with Soul Travelling. Experience the local forests and
+                        plateaus for a short morning or afternoon trail with Khoj-aao! If you have the time, by all
+                        means do the touristy trip too to the Dudhsagar falls or the Mollem national park. When you
+                        tire of walking around and seeing and experiencing all that you wanted to, hit a quiet beach
+                        stretch and dip your toes in the sand, sip a sundowner, and watch the skies change their
+                        hues as Goa comes alive in all its glory. </p>
+
+                    <p class="mb-4 font-bold">
+                        For more details for an off- beat experience in Goa contact:
+
+                        Terra Conscious: @ +918308600699 | Soul Travelling: @ +91 7378301863 | Khoj-aao! @ +91
+                        8080930669
                     </p>
 
 
 
 
-                    <p class="mb-4">
-                        Since its inception, Goa has been the unofficial beach capital of India and the harbinger of
-                        good times. Be it ushering in the new year in style, that ultimate road trip straight out of
-                        Bollywood, or the dreamy destination wedding couples have always wanted, it’s been
-                        the numero uno destination for all. I’ve also partaken in seeing Goa through a coloured
-                        lens, but over the years, Goa has evolved in a more wholesome way, and so has my perception
-                        of it. </p>
-                    <!-- Text content with floating image -->
-                    <div class="text-[16px] leading-relaxed text-justify">
-                        <!-- Floating Image with Text Below -->
-                        <div class="w-full max-w-[300px] mb-4 float-right ml-6">
-                            <!-- Image Container -->
-                            <div class="h-[290px] md:h-[300px] rounded-lg bg-cover bg-center shadow-lg relative"
-                                style="background-image: url('img/image\ 134.png');">
-                            </div>
-
-                            <!-- Text Below Image -->
-                            <p class="text-center mt-4  mt-2 my-2  font-bold text-xs lg:text-sm  text-gray-700">
-                                Khoj-aao! - Taking a guided walk through Goa's backyard forests is a great way to
-                                explore the lesser-known side of Goa
-                            </p>
-
-                        </div>
-
-                        <p class="mb-4">
-                            Divided primarily into the north and south, there is much to explore in the state. While the
-                            north is associated with more of the café culture replete with beach shacks, backpackers and
-                            catchy events, the south is considered the antidote with its secluded beaches and choice
-                            accommodation. If you look hard enough though, there is a little bit of both in the other,
-                            and you are bound to find your quiet corners in North Goa and your lively hangouts in the
-                            south. </p>
-                        <p class="mb-4">
-                            Beaches top the reason why people flock to Goa, and while Baga and Calangute may have been
-                            the rage at one point, today they are no better than overcrowded malls. You will still find
-                            some great eateries tucked away in their folds, but if you want quietude, escape to the
-                            secluded havens in the south such as Agonda or Palolem, or the hidden gem Butterfly beach
-                            accessible only by boat. A completely different world is the natural beauty of Divar island,
-                            connected to old Goa by ferry. In the north, Anjuna is an old favourite, just like Arambol
-                            and Vagator. Farthest though, are the Ashwem and Mandrem beaches, by far my favourites.
-                        </p>
-                        <div class="text-center my-8 py-5">
-                            <img src="img/Add_banner (5).png" alt="Advertisement"
-                                class="max-w-full h-auto w-full lg:w-30 lg:h-22 rounded mx-auto">
-                        </div>
-
-                        <p class="mb-4"> No matter what your reason for visiting Goa, the architecture of the place is
-                            one you must
-                            carve time out for. The place has a rich history of Portuguese influence, reflected in
-                            everything from its historic buildings, to its culture and food. Start with the definitive
-                            Basilica of Bom Jesus, a UNESCO World Heritage Site in the capital that houses the tomb and
-                            remains of St. Francis Xavier. Another popular church in Panaji is Our Lady of Immaculate
-                            Conception, Se Cathedral, and the Churches of Saint Francis of Assisi and Saint Cajetan
-                            close by. Goa is also home to plenty of forts, the most famous one being Fort Aguada. Other
-                            grand forts include Fort Tiracol and Fort Chapora, all in North Goa. My favourite way to
-                            explore Goa’s Portuguese architecture though has always been by walking around the old
-                            quarters of the atmospheric Fontainhas neighbourhood in Panaji.
-                        </p>
-
-                        <p class="mb-4">
-                            When it comes to the usual suspects in Goa, the fun quotient is a high one. From snorkelling
-                            to banana boat rides and other water sports in the day, to dining on cruises or visiting its
-                            floating casinos at night, the list is endless. There are plenty of nightclubs all over, and
-                            eateries and pubs at every corner. The old favourites include Brittos to Suzie’s, to Ritz in
-                            Panaji which serves one of the best Goan thalis, while new ones emerge every season
-                            including a slew of hip cafes in Assagao, and the latest rage, green favourites like Beam Me
-                            Up and Okapi Vegan Kitchen. Bebinca, the old Portuguese sweetmeat, and Feni, the unofficial
-                            local drink, are cultural staples available at most supermarkets. </p>
-                        <!-- Fort Image -->
-                        <div class="w-full h-[100px] sm:h-[80px] md:h-[120px] lg:h-[150px] xl:h-[180px] rounded-lg bg-cover bg-center my-2 shadow-lg"
-                            style="background-image: url('img/goa3.png');"></div>
-
-
-                        <!-- Text Below Image -->
-                        <p class="text-center  mt-2 my-2 text-xs lg:text-sm font-bold text-gray-700">
-                            Terra conscious- Kayaking - Mangrove Exploration at Nerul River, North Goa
-                        </p>
-
-                        <p class="mb-4">
-                            When you’re done exploring the traditional hotspots, kick back and explore the lesser-known
-                            side of Goa with the help of some homegrown outfits that have been promoting conscious
-                            travel in more sustainable ways that help divide the footfall in this very popular
-                            destination. The idea of slow travel has grown on me, and only strengthened here in Goa, and
-                            even more so since the pandemic. Explore the mangroves of Goa with Terra Conscious, or
-                            explore the nuances of village life with Soul Travelling. Experience the local forests and
-                            plateaus for a short morning or afternoon trail with Khoj-aao! If you have the time, by all
-                            means do the touristy trip too to the Dudhsagar falls or the Mollem national park. When you
-                            tire of walking around and seeing and experiencing all that you wanted to, hit a quiet beach
-                            stretch and dip your toes in the sand, sip a sundowner, and watch the skies change their
-                            hues as Goa comes alive in all its glory. </p>
-
-                        <p class="mb-4 font-bold">
-                            For more details for an off- beat experience in Goa contact:
-
-                            Terra Conscious: @ +918308600699 | Soul Travelling: @ +91 7378301863 | Khoj-aao! @ +91
-                            8080930669
-                        </p>
-
-
-
-
-                        <!-- Clear float -->
-                        <div class="clear-both"></div>
-                    </div>
+                    <!-- Clear float -->
+                    <div class="clear-both"></div>
+                </div>
             </section>
 
             <!-- Right Sidebar - Hidden on mobile -->
